@@ -10,4 +10,4 @@ module.exports = solc.compile(source, 1).contracts[':Registration'];
 
 
 
-// console.log(solc.compile(source, 1));
+console.log(solc.compile(source, 1));
