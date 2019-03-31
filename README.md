@@ -18,7 +18,7 @@ Regardless of the age-long debate on legalizing firearms,
  
  
 # Technical Details
-g
+
 ## Application Architecture
 WIP
 
