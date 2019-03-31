@@ -3,7 +3,7 @@ pragma solidity ^0.4.4;
 contract Registration {
     string public registrationNumber;
 
-    constructor( string serialNumber ) public {
+    function Registration( string serialNumber ) public {
         registrationNumber = serialNumber;
     }
 
