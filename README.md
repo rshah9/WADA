@@ -13,14 +13,30 @@ there are 120 guns per 100 US citizen.
 ### Motivation
 Regardless of the age-long debate on legalizing firearms, 
  another way to decrease firearm-related violence is through holding manufacturers and owners accountable for their firearms. 
- Using Ethereum Blockchain and smart contracts to tokenize these firearms from the time they are manufactured to the time it is with the owners.
+ Using Ethereum Blockchain and smart contracts (ERC20, ERC721) to tokenize these firearms from the time they are manufactured to 
+ the time it is with the owners.
  
  
  
 # Technical Details
 
+## Tech Stack
+
+* Ethereum 
+* Solidity Smart
+* Metamask
+* Rinkeby Test Network
+* Infura API
+* IPFS
+* Truffle 
+* Ganache
+* Node.js
+* React.js
+* Mocha Testing Library
+
+
 ## Application Architecture
-WIP
+*WIP*
 
 ## UX
-WIP
+*WIP*

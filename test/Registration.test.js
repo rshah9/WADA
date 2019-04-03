@@ -19,12 +19,13 @@ beforeEach(async() => {
 
 describe('Registration', () => {
     it('deploys the contract', () => {
-        // console.log(registration);
+        console.log(registration);
         assert.ok(registration.options.address); //assert std node lib. ok valids the value is there
     });
     //another test
     it('has a default registrationNumber', async () => {
-        const registrationNumber = await registration.methods.registrationNumber().call(); //contract prop methods, this receives our registrationNumber
+        //contract prop methods, this receives our registrationNumber
+        const registrationNumber = await registration.methods.registrationNumber().call();
         assert.equal(registrationNumber,'Hi there!');
     });
 

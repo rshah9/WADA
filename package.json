@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.4.1",
+    "ipfs-api": "^26.1.2",
+    "ipfs-mini": "^1.1.5",
     "mocha": "^6.0.2",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "0.0.3",
