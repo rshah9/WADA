@@ -23,7 +23,7 @@ Regardless of the age-long debate on legalizing firearms,
 ## Tech Stack
 
 * Ethereum 
-* Solidity Smart
+* Solidity Smart contract
 * Metamask
 * Rinkeby Test Network
 * Infura API
@@ -31,12 +31,11 @@ Regardless of the age-long debate on legalizing firearms,
 * Truffle 
 * Ganache
 * Node.js
-* React.js
 * Mocha Testing Library
 
 
 ## Application Architecture
-*WIP*
+![Application Architecture](./Assets/WADA_APP.png?raw=true "Proposed Application Architecture")
 
-## UX
-*WIP*
+## UI
+![UI](./Assets/WADA_UI.png?raw=true "Sample Proposed UI")
