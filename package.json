@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "compile": "node compile.js",
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.js",
+    "release": "node version.js"
   },
   "author": "",
   "license": "ISC",
