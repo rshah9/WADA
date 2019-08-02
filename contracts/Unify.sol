@@ -12,7 +12,7 @@ contract Unify {
         require(_armsId);
     }
 
-    function setUnifiedId(string _armsId, string _buyerId ){
+    function setUnifiedId(string _armsId, string _buyerId ) public {
         if(_armsId != undefined && _buyerId  != undefined){
             string currentOwner = _armsId + _buyerId;
             return currentOwner;
