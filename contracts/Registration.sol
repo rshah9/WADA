@@ -11,6 +11,7 @@ contract Registration {
         registrationNumber = newRegistration;
     }
 
+    //TODO: refactor this function if needed at all? If yes get from where?
     function getRegistration() public view returns (string) {
         return registrationNumber;
     }

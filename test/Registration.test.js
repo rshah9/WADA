@@ -12,7 +12,8 @@ const INITIAL_STRING = 'Hi There!!';
 beforeEach(async() => {
     //get list of all accounts
     accounts = await web3.eth.getAccounts();
-    console.log(`these are ze accounts ${accounts}`);
+    console.log(`these are the accounts ${accounts}`);
+
     //use one account to deploy the contract
     registration = await new web3.eth.Contract(JSON.parse(interface))
         .deploy({data: bytecode, arguments: [INITIAL_STRING] })
